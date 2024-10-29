@@ -41,6 +41,7 @@ Functional Simulation:
       (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
+![Screenshot 2024-10-29 101709](https://github.com/user-attachments/assets/3270ceb0-5c44-48b1-b2ad-e63acf3db73a)
 
 
 ## Fig 2: Invoke the Cadence Environment
@@ -88,6 +89,7 @@ Click the cds.lib file and save the file by clicking on Save option
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
 
 	We are simulating verilog design without using any libraries
+![Screenshot 2024-10-29 130847](https://github.com/user-attachments/assets/8e9d6f5c-360b-4d64-904d-332c570c4ac6)
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -122,6 +124,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+![Screenshot 2024-10-29 131000](https://github.com/user-attachments/assets/70180848-7ba0-4e25-a751-123b67295d3c)
 
 ## Fig 7: Compiled database in worklib
 
@@ -163,10 +166,13 @@ It contains statements that map logical library names to their physical director
 	Simulation allow to dump design and test bench signals into a waveform 
 
 	Steps for simulation – Run the simulation command with simulator options
+![Screenshot 2024-10-29 131039](https://github.com/user-attachments/assets/38d96e9b-e0a9-4e13-adf0-93b41ef5edc0)
 
 ## Fig 9: Design Browser window for simulation
+![Screenshot 2024-10-29 131110](https://github.com/user-attachments/assets/07f5675e-1dce-44a1-9352-b5588a1e3c37)
 
 ## Fig 10: Simulation Waveform Window
+![Screenshot 2024-10-29 131118](https://github.com/user-attachments/assets/9aa2c0f4-5d4c-45a4-9b8d-af4bfa67ca3c)
 
 ## Fig 11: Simulation Waveform Window
 
